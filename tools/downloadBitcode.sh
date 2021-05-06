@@ -4,7 +4,7 @@ set -euo pipefail
 
 # Files to be downloaded
 WEBRTC_BUILD="M84-1"
-WEBRTC_FILE="https://dl.bintray.com/webrtc-builds/webrtc-builds/${WEBRTC_BUILD}/WebRTC.tar.xz"
+WEBRTC_FILE="https://github.com/barisinanc/react-native-webrtc/releases/download/1.84.0/WebRTC.tar.xz"
 
 
 THIS_DIR=$(cd -P "$(dirname "$(readlink "${BASH_SOURCE[0]}" || echo "${BASH_SOURCE[0]}")")" && pwd)
